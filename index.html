@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jirayumyum</title>
+</head>
+<body>
+    <div class="wapper">
+    <header>
+        <div class="myJira"> 
+            My Jira Clone
+        </div>
+        <button class="plus">
+            +
+        </button>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        &#169; vivek gupta 2021
+    </footer>
+</div>
+<div class="dialogBox">
+    <div class="dialog-box">
+        <button class="X"> X </button>
+        <button onclick="addGreen()" class="grn" >*</button>
+        <button onclick="addBlue()" class="blu" >*</button>
+        <button onclick="addRed()" class="rd" >*</button>
+        <header>Add New Item</header>
+        <main>
+            <div>
+                <input type="text" class="form-head" id='title' placeholder="Heading">
+            </div>
+            <div>
+                <textarea name="" cols="30" id="form-content" rows="10"></textarea>
+            </div>
+        </main>
+        <button onclick="addItem()" class="ad" >+</button>
+        
+    </div>
+    
+</div>
+
+</body>
+<script src="script.js"></script> 
+</html>
